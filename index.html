@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" class="bg-[#111111]">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Dashboard</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fakhrul62.github.io/icons/css/fontawesome.css">
+    <link rel="stylesheet" href="https://fakhrul62.github.io/icons/css/all.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="h-[100vh]  p-5 grid grid-cols-[20%_78%] gap-[2%]">
+    <section class="p-10">
+        <div class="user-profile">
+            <div class="user-image indicator mb-5">
+                <span
+                    class="indicator-item badge bg-[#e92f2f] text-white rounded-full border-none w-6 h-6 text-xs leading-6 poppins">4</span>
+                <img src="assets/images/Profile.png" class="" alt="" srcset="">
+            </div>
+            <h2 class="poppins font-semibold text-white text-2xl">Samantha</h2>
+            <h3 class="poppins font-normal text-gray-400 text-base">samantha@email.com</h3>
+        </div>
+        <div class="menu flex flex-col gap-5 mt-16">
+            <a href="#"
+                class="poppins text-xl text-gray-400 hover:text-white transition-all font-semibold">Dashboard</a>
+            <a href="#" class="poppins text-xl text-gray-400 hover:text-white transition-all font-semibold">Expenses</a>
+            <a href="#" class="poppins text-xl text-gray-400 hover:text-white transition-all font-semibold">Wallets</a>
+            <a href="#" class="poppins text-xl text-gray-400 hover:text-white transition-all font-semibold">Summary</a>
+            <a href="#" class="poppins text-xl text-gray-400 hover:text-white transition-all font-semibold">Accounts</a>
+            <a href="#" class="poppins text-xl text-gray-400 hover:text-white transition-all font-semibold">Settings</a>
+        </div>
+    </section>
+    <section class="bg-white !rounded-3xl">
+        <div class="h-full grid grid-cols-[70%_30%]">
+            <div class="py-10 rounded-tl-3xl px-20">
+                <div class="expense-part grid grid-cols-2">
+                    <div class="expense-text">
+                        <h1 class="poppins font-semibold text-[40px] text-[#262A41] leading-[1] mb-3">Expenses</h1>
+                        <h6 class="poppins font-normal text-base text-[#878787]">01 - 25 March, 2020</h6>
+                    </div>
+                    <div class="expense-img flex -gap-1 justify-end items-start">
+                        <img class="rounded-full w-10 h-10 border-4 border-white z-[3]"
+                            src="assets/images/bitmap (1).png" alt="">
+                        <img class="rounded-full w-10 h-10 border-4 border-white z-[2] -ml-3"
+                            src="assets/images/bitmap (2).png" alt="">
+                        <img class="rounded-full w-10 h-10 border-4 border-white z-[1] -ml-3"
+                            src="assets/images/bitmap (3).png" alt="">
+                        <button
+                            class="btn hover:bg-transparent ml-6 text-4xl p-0 min-h-min h-min bg-transparent rounded-full">
+                            <i class="fa-light fa-circle-plus"></i>
+                        </button>
+
+
+                    </div>
+                </div>
+                <div class="graph-part">
+                    <div class="column" style="height: 40%;"></div>
+                    <div class="column" style="height: 60%;"></div>
+                    <div class="column" style="height: 50%;"></div>
+                    <div class="column" style="height: 40%;"></div>
+                    <div class="column" style="height: 50%;"></div>
+                    <div class="column" style="height: 60%;"></div>
+                    <div class="column" style="height: 70%;"></div>
+                    <div class="column" style="height: 80%;"></div>
+                    <div class="column" style="height: 90%;"></div>
+                    <div class="column" style="height: 69%;"></div>
+                    <div class="column" style="height: 90%;"></div>
+                    <div class="column" style="height: 80%;"></div>
+                    <div class="column" style="height: 70%;"></div>
+                    <div class="column" style="height: 60%;"></div>
+                    <div class="column" style="height: 50%;"></div>
+                    <div class="column" style="height: 45%;"></div>
+                    <div class="column" style="height: 60%;"></div>
+                    <div class="column" style="height: 40%;"></div>
+                    <div class="column" style="height: 70%;"></div>
+                    <div class="column" style="height: 50%;"></div>
+                    <div class="column" style="height: 75%;"></div>
+                    <div class="column" style="height: 45%;"></div>
+                    <div class="column" style="height: 85%;"></div>
+
+                </div>
+                <div class="">
+                    <div class="expense-amounts">
+                        <div class="toady flex justify-between py-3">
+                            <h3 class="avenir text-lg">Today</h3>
+
+                            <button
+                                class="btn hover:bg-transparent ml-6 text-4xl p-0 min-h-min h-min bg-transparent border-0 shadow-none text-[#aeaeae]">
+                                <i class="fa-regular fa-ellipsis"></i>
+                            </button>
+                        </div>
+                        <div class="divider my-0"></div>
+                        <div class="single-expenses flex gap-5 py-3">
+                            <!-- icon -->
+                            <span
+                                class="text-white bg-[#32a7e2] w-12 h-12 rounded-full !text-base flex items-center justify-center">
+                                <i class=" fa-solid fa-cart-shopping "></i>
+                            </span>
+                            <!-- text -->
+                            <div class="flex justify-between grow">
+                                <div class="">
+                                    <h3 class="poppins font-medium">Grocery</h3>
+                                    <h6 class="poppins font-normal text-[#878787] tracking-wider">5:12 pm • Belanja di
+                                        pasar
+                                    </h6>
+                                </div>
+                                <h3 class="poppins font-semibold">-326.800</h3>
+                            </div>
+                        </div>
+                        <div class="single-expenses flex gap-5 py-3">
+                            <!-- icon -->
+                            <span
+                                class="text-white bg-[#b548c6] w-12 h-12 rounded-full !text-base flex items-center justify-center">
+                                <i class="fa-solid fa-bus"></i>
+                            </span>
+                            <!-- text -->
+                            <div class="flex justify-between grow">
+                                <div class="">
+                                    <h3 class="poppins font-medium">Transportation</h3>
+                                    <h6 class="poppins font-normal text-[#878787] tracking-wider">5:12 pm • Naik bus
+                                        umum
+                                    </h6>
+                                </div>
+                                <h3 class="poppins font-semibold">-15.000</h3>
+                            </div>
+                        </div>
+                        <div class="single-expenses flex gap-5 py-3">
+                            <!-- icon -->
+                            <span
+                                class="text-white bg-[#ff8700] w-12 h-12 rounded-full !text-base flex items-center justify-center">
+                                <i class="fa-solid fa-house"></i>
+                            </span>
+                            <!-- text -->
+                            <div class="flex justify-between grow">
+                                <div class="">
+                                    <h3 class="poppins font-medium">Housing</h3>
+                                    <h6 class="poppins font-normal text-[#878787] tracking-wider">5:12 pm • Bayar
+                                        Listrik
+                                    </h6>
+                                </div>
+                                <h3 class="poppins font-semibold">-185.750</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="expense-amounts mt-5">
+                        <div class="toady flex justify-between py-3">
+                            <h3 class="avenir text-lg">Monday, 23 March 2020</h3>
+                            <button
+                                class="btn hover:bg-transparent ml-6 text-4xl p-0 min-h-min h-min bg-transparent border-0 shadow-none text-[#aeaeae]">
+                                <i class="fa-regular fa-ellipsis"></i>
+                            </button>
+                        </div>
+                        <div class="divider my-0"></div>
+                        <div>
+                            <div class="single-expenses flex gap-5 py-3">
+                                <!-- icon -->
+                                <span
+                                    class="text-white bg-[#dc3434] w-12 h-12 rounded-full !text-base flex items-center justify-center">
+                                    <img src="assets/images/shape.svg" alt="" srcset="">
+                                </span>
+                                <!-- text -->
+                                <div class="flex justify-between grow">
+                                    <div class="">
+                                        <h3 class="poppins font-medium">Food and Drink</h3>
+                                        <h6 class="poppins font-normal text-[#878787] tracking-wider">5:12 pm • Makan
+                                            Steak</h6>
+                                    </div>
+                                    <h3 class="poppins font-semibold">-156.000</h3>
+                                </div>
+                            </div>
+                            <div class="single-expenses flex gap-5 py-3">
+                                <!-- icon -->
+                                <span
+                                    class="text-white bg-[#4ba83d] w-12 h-12 rounded-full !text-base flex items-center justify-center">
+                                    <i class="fa-solid fa-circle-play"></i>
+                                </span>
+                                <!-- text -->
+                                <div class="flex justify-between grow">
+                                    <div class="">
+                                        <h3 class="poppins font-medium">Entertainment</h3>
+                                        <h6 class="poppins font-normal text-[#878787] tracking-wider">5:12 pm • Nonton
+                                            Bioskop</h6>
+                                    </div>
+                                    <h3 class="poppins font-semibold">-35.200</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="bg-[#F9FAFC] h-full py-10 px-10 rounded-tr-3xl rounded-br-3xl flex flex-col justify-between">
+                <div class="progress-part">
+                    <h3 class="avenir2 text-xl text-[#262A41] font-semibold">Where your money go?</h3>
+                    <div class="progress-bars py-8">
+                        <div class="single-progress grid gap-2 pb-4">
+                            <div class="progress-text flex justify-between">
+                                <h3 class="poppins font-medium text-[13px]">Food and Drinks</h3>
+                                <h3 class="poppins font-normal text-[13px]">872.400</h3>
+                            </div>
+                            <progress class="progress w-full h-[5px] progress-primary bg-[#ECEFF5]" value="28"
+                                max="100"></progress>
+                        </div>
+                        <div class="single-progress pb-4 grid gap-2">
+                            <div class="progress-text flex justify-between">
+                                <h3 class="poppins font-medium text-[13px]">Shopping</h3>
+                                <h3 class="poppins font-normal text-[13px]">1.378.200</h3>
+                            </div>
+                            <progress class="progress w-full h-[5px] progress-primary bg-[#ECEFF5]" value="44"
+                                max="100"></progress>
+                        </div>
+                        <div class="single-progress pb-4 grid gap-2">
+                            <div class="progress-text flex justify-between">
+                                <h3 class="poppins font-medium text-[13px]">Housing</h3>
+                                <h3 class="poppins font-normal text-[13px]">928.500</h3>
+                            </div>
+                            <progress class="progress w-full h-[5px] progress-primary bg-[#ECEFF5]" value="36"
+                                max="100"></progress>
+                        </div>
+                        <div class="single-progress pb-4 grid gap-2">
+                            <div class="progress-text flex justify-between">
+                                <h3 class="poppins font-medium text-[13px]">Transportation</h3>
+                                <h3 class="poppins font-normal text-[13px]">420.700</h3>
+                            </div>
+                            <progress class="progress w-full h-[5px] progress-primary bg-[#ECEFF5]" value="24"
+                                max="100"></progress>
+                        </div>
+                        <div class="single-progress pb-4 grid gap-2">
+                            <div class="progress-text flex justify-between">
+                                <h3 class="poppins font-medium text-[13px]">Vehicle</h3>
+                                <h3 class="poppins font-normal text-[13px]">520.000</h3>
+                            </div>
+                            <progress class="progress w-full h-[5px] progress-primary bg-[#ECEFF5]" value="36"
+                                max="100"></progress>
+                        </div>
+                    </div>
+                </div>
+                <div class="view-tips bg-[#EDF0F6] !rounded-3xl p-6">
+                    <div class="images flex justify-between -mt-20 items-end">
+                        <img class="h-16 object-contain" src="assets/images/illustration.png" alt="">
+                        <img class="h-24 object-contain" src="assets/images/illustration (1).png" alt="">
+                    </div>
+                    <div class="tips-text pt-4">
+                        <h3 class="poppins text-base font-semibold pb-3">Save more money</h3>
+                        <h4 class="poppins text-xs font-normal pb-3">eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim.</h4>
+                        <button
+                            class="btn bg-[#101010] text-center mx-auto w-full text-[#ffffff] hover:text-black poppins text-sm font-semibold">VIEW
+                            TIPS</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://fakhrul62.github.io/icons/js/fontawesome.js"></script>
+    <script src="https://fakhrul62.github.io/icons/js/all.js"></script>
+</body>
+
+</html>
